@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\HomeController;
 
 /*
@@ -17,6 +19,7 @@ use App\Http\Controllers\HomeController;
 // NEW ROUTES
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/about-us', [AboutUsController::class, 'index'])->name('aboutus');
 
 // END NEW ROUTES
 
@@ -28,7 +31,7 @@ Route::get('/register', [App\Http\Controllers\Auth\LoginController::class, 'regi
 Route::post('/register', [App\Http\Controllers\Auth\LoginController::class, 'registerProcess'])->middleware('guest')->name('register');
 Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
 Route::get('/activate/{token}', [App\Http\Controllers\Auth\LoginController::class, 'activate'])->name('activate');
-Route::get('/about-us', [App\Http\Controllers\Auth\LoginController::class, 'aboutus'])->name('aboutus');
+//Route::get('/about-us', [App\Http\Controllers\Auth\LoginController::class, 'aboutus'])->name('aboutus');
 
 //category=========================================================================================================================================================
 Route::get('/categories',[App\Http\Controllers\CategoryController::class, 'index'])->name('categories.index');
