@@ -1,0 +1,29 @@
+.blog-footer {
+  width: 100%;
+  background: #f8f9fa;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .container {
+    // Mantém responsividade
+    width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 1rem;
+    word-break: break-word;
+    color: #3a3a3a;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #ff8c00;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
