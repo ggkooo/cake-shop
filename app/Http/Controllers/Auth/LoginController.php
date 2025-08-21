@@ -143,7 +143,14 @@ class LoginController extends Controller
         $data['products'] = Product::all()->take(20);
         $data['latests'] = Product::latest()->take(5)->get();
 
-        return view('welcome', $data);
+        return view('layout.index', [
+            'page' => 'test',
+            'categories' => $data['categories'],
+            'products' => $data['products'],
+            'latests' => $data['latests'],
+        ]);
+
+//        return view('welcome', $data);
     }
     public function logout()
     {
