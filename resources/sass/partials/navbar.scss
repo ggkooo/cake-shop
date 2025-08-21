@@ -1,0 +1,57 @@
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.925rem;
+}
+
+.title-orange-text {
+    color: #ff4321;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.btn-outline-orange {
+    padding: 0.70rem;
+    color: #ff8c00;
+    border: none;
+}
+
+.btn-outline-orange:hover {
+    color: #fff;
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .and {
+        font-size: 30px;
+    }
+}
+
+.dropdown-menu {
+  /* Removido display: flex para não quebrar o JS do Bootstrap */
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  padding: 0.5rem 0;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 0.92rem;
+  text-align: center;
+  width: 100%;
+  padding: 0.4rem 1rem;
+  /* Centraliza o texto */
+  background: transparent !important;
+}
+
+.dropdown-menu .dropdown-divider {
+  width: 80%;
+  margin: 0.3rem auto;
+}
