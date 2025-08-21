@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// NEW ROUTES
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+// END NEW ROUTES
+
 Route::post('/login', [App\Http\Controllers\Auth\LoginController::class, 'loginProcess'])->middleware('guest')->name('login');
 Route::get('/welcome', [App\Http\Controllers\Auth\LoginController::class, 'showDash'])->name('dashboard');
-Route::get('/', [App\Http\Controllers\Auth\LoginController::class, 'showDash'])->name('dashboard2');
+//Route::get('/', [App\Http\Controllers\Auth\LoginController::class, 'showDash'])->name('dashboard2');
 Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'loginPage'])->middleware('guest')->name('loginClick');
 Route::get('/register', [App\Http\Controllers\Auth\LoginController::class, 'registerPage'])->middleware('guest')->name('registerClick');
 Route::post('/register', [App\Http\Controllers\Auth\LoginController::class, 'registerProcess'])->middleware('guest')->name('register');
