@@ -17,4 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/partials/navbar.scss', 'public/css/partials')
     .sass('resources/sass/partials/footer.scss', 'public/css/partials')
     .sass('resources/sass/pages/home-page/style.scss', 'public/css/pages/home-page')
+    .sass('resources/sass/pages/about-us-page/style.scss', 'public/css/pages/about-us-page')
     .sourceMaps();

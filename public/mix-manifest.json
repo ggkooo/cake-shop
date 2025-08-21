@@ -4,5 +4,6 @@
     "/css/app.css": "/css/app.css",
     "/css/partials/footer.css": "/css/partials/footer.css",
     "/css/partials/navbar.css": "/css/partials/navbar.css",
-    "/css/partials/hero-banner.css": "/css/partials/hero-banner.css"
+    "/css/partials/hero-banner.css": "/css/partials/hero-banner.css",
+    "/css/pages/about-us-page/style.css": "/css/pages/about-us-page/style.css"
 }
