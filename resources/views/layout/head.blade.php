@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="A cake shop offering delicious handcrafted cakes, pastries, and sweets for every occasion. Discover our unique flavors and order online for fast delivery.">
     <meta name="author" content="">
+    <link rel="icon" href="{{asset('/assets/images/favicon/favicon.ico')}}">
     <title>The Sweet Piece</title>
     
     <!-- Google Fonts -->
