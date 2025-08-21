@@ -16,7 +16,7 @@
         height: 100vh;
         clip-path: polygon(0 0, 60vw 0, 40vw 100vh, 0 100vh);
         z-index: 1;
-        background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/uploads/other/blackforest.jpg');
+        background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/images/blackforest.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -29,7 +29,7 @@
         width: 60%;
         background-color: green;
         height: 100vh;
-        background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url('/uploads/other/redvelvet.jpg');
+        background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url('/assets/images/redvelvet.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
