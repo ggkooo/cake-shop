@@ -1,4 +1,4 @@
-<footer class="blog-footer text-center py-3">
+<footer class="blog-footer text-center py-3 fixed-bottom">
     <div class="container">
         <p class="mb-0">
             This website is built by 
