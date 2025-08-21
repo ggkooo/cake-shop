@@ -38,8 +38,14 @@
   /* Removido display: flex para não quebrar o JS do Bootstrap */
   border: none;
   box-shadow: none;
-  background: transparent;
+  background: #fff;
   padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .dropdown-menu {
+    background: transparent !important;
+  }
 }
 
 .dropdown-menu .dropdown-item {
