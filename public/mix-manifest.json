@@ -1,5 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/pages/home-page/style.css": "/css/pages/home-page/style.css",
     "/css/app.css": "/css/app.css",
-    "/css/hero-banner.css": "/css/hero-banner.css"
+    "/css/partials/navbar.css": "/css/partials/navbar.css",
+    "/css/partials/hero-banner.css": "/css/partials/hero-banner.css"
 }

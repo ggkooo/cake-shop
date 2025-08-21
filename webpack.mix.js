@@ -13,5 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .sass('resources/sass/hero-banner.scss', 'public/css')
+    .sass('resources/sass/partials/hero-banner.scss', 'public/css/partials')
+    .sass('resources/sass/partials/navbar.scss', 'public/css/partials')
+    .sass('resources/sass/pages/home-page/style.scss', 'public/css/pages/home-page')
     .sourceMaps();
