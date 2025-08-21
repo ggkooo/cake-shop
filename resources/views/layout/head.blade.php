@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/partials/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/partials/hero-banner.css')}}">
+    <link rel="stylesheet" href="{{asset('css/partials/footer.css')}}">
     <link rel="stylesheet" href="{{asset('css/pages/home-page/style.css')}}">
 </head>
 <body>
