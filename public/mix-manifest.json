@@ -2,6 +2,7 @@
     "/js/app.js": "/js/app.js",
     "/css/pages/home-page/style.css": "/css/pages/home-page/style.css",
     "/css/app.css": "/css/app.css",
+    "/css/partials/footer.css": "/css/partials/footer.css",
     "/css/partials/navbar.css": "/css/partials/navbar.css",
     "/css/partials/hero-banner.css": "/css/partials/hero-banner.css"
 }
